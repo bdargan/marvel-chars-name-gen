@@ -1,7 +1,7 @@
 "use strict";
 var fs = require('fs');
 
-exports.generate = function() {
+function generate () {
 
   var names = fs.readFileSync('./names.txt').toString().split('\n');
   var nameCount = names.length;
@@ -9,7 +9,4 @@ exports.generate = function() {
   return coolName;
 }
 
-exports.test = function() {
-    console.log("Expect to see a cool name:\n"+this.generate());
-};
-
+module.exports = generate;
