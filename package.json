@@ -1,6 +1,6 @@
 {
   "name": "marvel-chars-name-gen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dumb Marvel Characters Name Generator. Randomly take 2 names from a list of Marvel Characters and join them together",
   "main": "index.js",
   "scripts": {
