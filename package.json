@@ -1,0 +1,20 @@
+{
+  "name": "marvel-chars-name-gen",
+  "version": "0.0.1",
+  "description": "Dumb Marvel Characters Name Generator. Randomly take 2 names from a list of Marvel Characters and join them together",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "main": "node ./run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdargan/marvel-chars-name-gen.git"
+  },
+  "author": "dargz",
+  "license": "ASL2",
+  "bugs": {
+    "url": "https://github.com/bdargan/marvel-chars-name-gen/issues"
+  },
+  "homepage": "https://github.com/bdargan/marvel-chars-name-gen"
+}
